@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Listings Negotiations
+  title: Reverb Get My Listings Negotiations
   description: Get a list of active negotiations as a seller
   termsOfService: https://reverb.com/page/terms
   contact:

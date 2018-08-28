@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Listings Drafts
+  title: Reverb Get My Listings Drafts
   description: Retrieve a list your draft listings
   termsOfService: https://reverb.com/page/terms
   contact:

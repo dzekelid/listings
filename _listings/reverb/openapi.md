@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 1
@@ -909,22 +908,6 @@ paths:
       - Sale
       - Id
       - Listings
-  /articles/{slug}/related-listings:
-    get:
-      summary: Get Articles Slug Related Listings
-      description: Find listings related to an article
-      operationId: getArticlesSlugRelatedListings
-      x-api-path-slug: articlesslugrelatedlistings-get
-      parameters:
-      - in: path
-        name: slug
-      responses:
-        200:
-          description: OK
-      tags:
-      - Articles
-      - Slug
-      - Related-listings
   /vinyl/listings:
     get:
       summary: Get Vinyl Listings
@@ -968,4 +951,56 @@ paths:
       - Vinyl
       - Listings
       - Id
----
+  /articles/{slug}/related-listings:
+    get:
+      summary: Get Articles Slug Related Listings
+      description: Find listings related to an article
+      operationId: getArticlesSlugRelatedListings
+      x-api-path-slug: articlesslugrelatedlistings-get
+      parameters:
+      - in: path
+        name: slug
+      responses:
+        200:
+          description: OK
+      tags:
+      - Articles
+      - Slug
+      - Related-listings
+  /currencies/listing:
+    get:
+      summary: Get Currencies Listing
+      description: List of supported listing currencies for shops
+      operationId: getCurrenciesListing
+      x-api-path-slug: currencieslisting-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Currencies
+      - Listing
+  /listing_conditions:
+    get:
+      summary: Get Listing Conditions
+      description: List of supported product conditions
+      operationId: getListingConditions
+      x-api-path-slug: listing-conditions-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Listing
+      - Conditions
+  /shop/listing_conditions:
+    get:
+      summary: Get Shop Listing Conditions
+      description: List of supported product conditions
+      operationId: getShopListingConditions
+      x-api-path-slug: shoplisting-conditions-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Shop
+      - Listing
+      - Conditions

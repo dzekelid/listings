@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Etsy
 x-complete: 1
@@ -750,4 +749,62 @@ paths:
       - Listings
       - Expired
       - Listing
----
+  /homepages/pickers/{featured_listing_picker_id}:
+    get:
+      summary: Get Homepages Pickers Featured Listing Picker
+      description: Retrieves a FeaturedListingPicker by id.
+      operationId: getHomepagesPickersFeaturedListingPicker
+      x-api-path-slug: homepagespickersfeatured-listing-picker-id-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Home Pages
+      - Pickers
+      - Featured
+      - Listing
+      - Picker
+  /homepages/pickers/{featured_listing_picker_id}/featured:
+    get:
+      summary: Get Homepages Pickers Featured Listing Picker Featured
+      description: Retrieves a set of FeaturedListing objects associated to a FeaturedListingPicker.
+      operationId: getHomepagesPickersFeaturedListingPickerFeatured
+      x-api-path-slug: homepagespickersfeatured-listing-picker-idfeatured-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      responses:
+        200:
+          description: OK
+      tags:
+      - Home Pages
+      - Pickers
+      - Featured
+      - Listing
+      - Picker
+      - Featured
+  /payments/{listing_payment_id}:
+    get:
+      summary: Get Payments Listing Payment
+      description: Retrieves a ListingPayment by id.
+      operationId: getPaymentsListingPayment
+      x-api-path-slug: paymentslisting-payment-id-get
+      parameters:
+      - in: path
+        name: listing_payment_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Payments
+      - Listing
+      - Payment

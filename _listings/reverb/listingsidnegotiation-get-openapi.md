@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Listings Negotiation
+  title: Reverb Get Listings Negotiation
   description: Returns the latest negotiation for the requesting user given a listing
     id
   termsOfService: https://reverb.com/page/terms

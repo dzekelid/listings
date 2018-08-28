@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Listings Facets Seller Location
+  title: Reverb Get Listings Facets Seller Location
   description: Get listings facets seller location.
   termsOfService: https://reverb.com/page/terms
   contact:

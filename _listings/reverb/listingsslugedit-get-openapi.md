@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Listings Slug Edit
+  title: Reverb Get Listings Slug Edit
   description: Get listings slug edit.
   termsOfService: https://reverb.com/page/terms
   contact:

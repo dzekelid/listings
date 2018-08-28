@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Delete Sales Sale Listings
+  title: Reverb Delete Sales Sale Listings
   description: Remove a listing from a sale
   termsOfService: https://reverb.com/page/terms
   contact:

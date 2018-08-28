@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Post Listings Offer
+  title: Reverb Post Listings Offer
   description: Make an offer to the seller of a listing
   termsOfService: https://reverb.com/page/terms
   contact:

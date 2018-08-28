@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Listings
+  title: Reverb Get My Listings
   description: Retrieve a list of live listings for the seller. To search all listings
     specify state=all
   termsOfService: https://reverb.com/page/terms

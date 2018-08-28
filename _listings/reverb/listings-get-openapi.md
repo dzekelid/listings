@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Listings
+  title: Reverb Get Listings
   description: Default search of listings includes only used & handmade. Add a filter
     to view all listings or use the /listings/all endpoint.
   termsOfService: https://reverb.com/page/terms

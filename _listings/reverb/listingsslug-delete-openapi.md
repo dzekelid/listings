@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Delete Listings Slug
+  title: Reverb Delete Listings Slug
   description: Delete a draft listing. Cannot be used on non-drafts.
   termsOfService: https://reverb.com/page/terms
   contact:

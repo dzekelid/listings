@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Post Listings Slug Flag
+  title: Reverb Post Listings Slug Flag
   description: Flag a listing for inappropriate content or fraud
   termsOfService: https://reverb.com/page/terms
   contact:

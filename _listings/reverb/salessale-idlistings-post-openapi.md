@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Post Sales Sale Listings
+  title: Reverb Post Sales Sale Listings
   description: Post sales sale listings.
   termsOfService: https://reverb.com/page/terms
   contact:

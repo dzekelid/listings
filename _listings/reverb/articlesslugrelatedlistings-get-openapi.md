@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Articles Slug Related Listings
+  title: Reverb Get Articles Slug Related Listings
   description: Find listings related to an article
   termsOfService: https://reverb.com/page/terms
   contact:
@@ -909,6 +909,49 @@ paths:
       - Sale
       - Id
       - Listings
+  /vinyl/listings:
+    get:
+      summary: Get Vinyl Listings
+      description: Get vinyl listings.
+      operationId: getVinylListings
+      x-api-path-slug: vinyllistings-get
+      parameters:
+      - in: query
+        name: merchandising_uuid
+        description: Merchandising UUID of the release
+      responses:
+        200:
+          description: OK
+      tags:
+      - Vinyl
+      - Listings
+    post:
+      summary: Post Vinyl Listings
+      description: Post vinyl listings.
+      operationId: postVinylListings
+      x-api-path-slug: vinyllistings-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Vinyl
+      - Listings
+  /vinyl/listings/{id}:
+    get:
+      summary: Get Vinyl Listings
+      description: Get vinyl listings.
+      operationId: getVinylListings
+      x-api-path-slug: vinyllistingsid-get
+      parameters:
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Vinyl
+      - Listings
+      - Id
   /articles/{slug}/related-listings:
     get:
       summary: Get Articles Slug Related Listings
@@ -925,6 +968,43 @@ paths:
       - Articles
       - Slug
       - Related-listings
+  /currencies/listing:
+    get:
+      summary: Get Currencies Listing
+      description: List of supported listing currencies for shops
+      operationId: getCurrenciesListing
+      x-api-path-slug: currencieslisting-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Currencies
+      - Listing
+  /listing_conditions:
+    get:
+      summary: Get Listing Conditions
+      description: List of supported product conditions
+      operationId: getListingConditions
+      x-api-path-slug: listing-conditions-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Listing
+      - Conditions
+  /shop/listing_conditions:
+    get:
+      summary: Get Shop Listing Conditions
+      description: List of supported product conditions
+      operationId: getShopListingConditions
+      x-api-path-slug: shoplisting-conditions-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Shop
+      - Listing
+      - Conditions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Listings All
+  title: Reverb Get Listings All
   description: All listings including used, handmade, and brand new
   termsOfService: https://reverb.com/page/terms
   contact:
